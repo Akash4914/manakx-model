@@ -1,0 +1,245 @@
+{
+  "_note": "MOCK DATASET for development/demo only. Replace this file (or point the repository at a new path) with the real, teammate-collected dataset once it's ready. Keep the field schema below.",
+  "standards": [
+    {
+      "id": "IS-10322",
+      "title": "Luminaires - General Requirements and Tests",
+      "category": "Electrical - Lighting",
+      "scope": "General safety and performance requirements for luminaires and lighting fixtures, including LED street and highway lighting, covering construction, electrical safety and ingress protection.",
+      "keywords": ["led luminaire", "street light", "highway lighting", "outdoor light", "led light", "fixture"],
+      "year": 2019,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {
+        "testing": ["IS-10322-P4"],
+        "safety": ["IS-3043"],
+        "terminology": [],
+        "installation": ["IS-1944"],
+        "material": []
+      },
+      "certification": {"bis_mandatory": true, "scheme": "Compulsory Registration Scheme (CRS)"}
+    },
+    {
+      "id": "IS-10322-P4",
+      "title": "Luminaires Part 4: Photometric Testing Methods",
+      "category": "Electrical - Lighting",
+      "scope": "Test methods for photometric performance of luminaires, including luminous flux, efficacy and light distribution measurement for LED and other light sources.",
+      "keywords": ["photometric testing", "luminous flux", "led testing", "light output"],
+      "year": 2021,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": [], "safety": [], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-2010",
+      "title": "Degrees of Protection Provided by Enclosures (IP Code)",
+      "category": "Electrical - General",
+      "scope": "Classification system and test requirements for degrees of protection provided by enclosures of electrical equipment against ingress of solid objects, dust and water (IP ratings such as IP66).",
+      "keywords": ["ip66", "ip rating", "ingress protection", "dust proof", "water proof", "enclosure"],
+      "year": 2013,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": [], "safety": [], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-1944",
+      "title": "Code of Practice for Lighting of Public Thoroughfares",
+      "category": "Electrical - Lighting",
+      "scope": "Installation and design requirements for street and highway lighting installations, including pole spacing, mounting height and illumination levels.",
+      "keywords": ["street lighting installation", "highway lighting", "pole spacing", "public lighting"],
+      "year": 2000,
+      "status": "superseded",
+      "superseded_by": "IS-1944:2023",
+      "relations": {"testing": [], "safety": [], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-1944:2023",
+      "title": "Code of Practice for Lighting of Public Thoroughfares (Revised)",
+      "category": "Electrical - Lighting",
+      "scope": "Revised installation and design requirements for street and highway lighting installations using modern LED sources, including pole spacing, mounting height and illumination levels.",
+      "keywords": ["street lighting installation", "highway lighting", "led installation", "public lighting"],
+      "year": 2023,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": [], "safety": [], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-3043",
+      "title": "Code of Practice for Earthing",
+      "category": "Electrical - Safety",
+      "scope": "Requirements for electrical earthing of equipment and installations to protect against electric shock, relevant to any mains-powered outdoor electrical fixture.",
+      "keywords": ["earthing", "electrical safety", "shock protection", "grounding"],
+      "year": 1987,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": [], "safety": [], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-12701",
+      "title": "Specification for Rotationally Moulded Polyethylene Water Storage Tanks",
+      "category": "Water Storage",
+      "scope": "Requirements for polyethylene water storage tanks for potable water intended for outdoor and residential use, covering capacity, material, wall thickness, UV stabilisation and leak-proof construction.",
+      "keywords": ["water storage tank", "polyethylene tank", "plastic tank", "outdoor tank", "residential use", "500 litre", "1000 litre"],
+      "year": 2022,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {
+        "testing": ["IS-12701-P2"],
+        "safety": [],
+        "terminology": [],
+        "installation": [],
+        "material": ["IS-10146"]
+      },
+      "certification": {"bis_mandatory": true, "scheme": "Product Certification Scheme"}
+    },
+    {
+      "id": "IS-12701-P2",
+      "title": "Water Storage Tanks Part 2: Methods of Test",
+      "category": "Water Storage",
+      "scope": "Test methods for water storage tanks including leak-proofness, UV resistance, drop impact and capacity verification.",
+      "keywords": ["tank testing", "leak proof test", "uv resistance test", "capacity verification"],
+      "year": 2022,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": [], "safety": [], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-10146",
+      "title": "Specification for Polyethylene for its Safe Use in Contact with Foodstuff and Potable Water",
+      "category": "Materials",
+      "scope": "Requirements for food-grade and potable-water-grade polyethylene resin used to manufacture containers, pipes and tanks that come into contact with drinking water.",
+      "keywords": ["food grade polyethylene", "potable water", "plastic resin", "material safety"],
+      "year": 2015,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": [], "safety": [], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-2925",
+      "title": "Industrial Safety Helmets - Specification",
+      "category": "Personal Protective Equipment",
+      "scope": "Requirements for protective headgear worn by industrial and construction workers to protect against falling objects and impact, covering shell construction, harness and impact resistance.",
+      "keywords": ["safety helmet", "protective headgear", "construction worker", "hard hat", "head protection", "ppe"],
+      "year": 2020,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {
+        "testing": ["IS-2925-P2"],
+        "safety": [],
+        "terminology": [],
+        "installation": [],
+        "material": []
+      },
+      "certification": {"bis_mandatory": true, "scheme": "Compulsory Registration Scheme (CRS)"}
+    },
+    {
+      "id": "IS-2925-P2",
+      "title": "Industrial Safety Helmets Part 2: Methods of Test",
+      "category": "Personal Protective Equipment",
+      "scope": "Test methods for impact resistance, penetration resistance and flame resistance of industrial safety helmets.",
+      "keywords": ["helmet impact test", "penetration test", "ppe testing"],
+      "year": 2020,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": [], "safety": [], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-9137",
+      "title": "Specification for Centrifugal Pumps for General Purposes",
+      "category": "Pumps & Machinery",
+      "scope": "Design, construction and performance requirements for centrifugal pumps used for water supply, irrigation and general industrial purposes.",
+      "keywords": ["centrifugal pump", "water pump", "pump specification", "irrigation pump"],
+      "year": 2010,
+      "status": "superseded",
+      "superseded_by": "IS-9137:2025",
+      "relations": {
+        "testing": ["IS-9137-P3"],
+        "safety": ["IS-9922"],
+        "terminology": [],
+        "installation": [],
+        "material": []
+      },
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-9137:2025",
+      "title": "Specification for Centrifugal Pumps for General Purposes (Revised)",
+      "category": "Pumps & Machinery",
+      "scope": "Revised design, construction and performance requirements for centrifugal pumps used for water supply, irrigation and general industrial purposes, aligned with current efficiency norms.",
+      "keywords": ["centrifugal pump", "water pump", "pump specification", "irrigation pump", "efficiency"],
+      "year": 2025,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": ["IS-9137-P3"], "safety": ["IS-9922"], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-9137-P3",
+      "title": "Centrifugal Pumps Part 3: Performance Testing",
+      "category": "Pumps & Machinery",
+      "scope": "Test methods for verifying flow rate, head and efficiency performance of centrifugal pumps.",
+      "keywords": ["pump performance test", "flow rate test", "efficiency test"],
+      "year": 2011,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": [], "safety": [], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-9922",
+      "title": "Safety Requirements for Rotating Electrical Machinery",
+      "category": "Electrical - Safety",
+      "scope": "Safety requirements for motors and rotating electrical machinery used to drive pumps and other industrial equipment.",
+      "keywords": ["motor safety", "rotating machinery", "electrical safety", "pump motor"],
+      "year": 2016,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": [], "safety": [], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-1934",
+      "title": "Specification for Steel Furniture - School Furniture",
+      "category": "Furniture",
+      "scope": "Requirements for steel-framed school furniture including desks, benches and chairs used by students in classrooms, covering construction, dimensions, strength, stability and finish.",
+      "keywords": ["school desk", "steel frame", "student furniture", "bench", "classroom furniture"],
+      "year": 2018,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": [], "safety": ["IS-4021"], "terminology": [], "installation": [], "material": ["IS-2062"]},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-4021",
+      "title": "Safety Requirements for Furniture Used by Children and Students",
+      "category": "Furniture",
+      "scope": "Safety requirements for furniture intended for use by children and students, including edge smoothness, pinch point avoidance and stability under load.",
+      "keywords": ["smooth edges", "child safety", "student safety", "edge finish"],
+      "year": 2017,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": [], "safety": [], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    },
+    {
+      "id": "IS-2062",
+      "title": "Hot Rolled Medium and High Tensile Structural Steel - Specification",
+      "category": "Materials",
+      "scope": "Chemical composition and mechanical property requirements for hot rolled steel used in general structural and fabrication purposes including furniture frames.",
+      "keywords": ["steel frame", "structural steel", "material specification"],
+      "year": 2011,
+      "status": "current",
+      "superseded_by": null,
+      "relations": {"testing": [], "safety": [], "terminology": [], "installation": [], "material": []},
+      "certification": {"bis_mandatory": false, "scheme": null}
+    }
+  ]
+}

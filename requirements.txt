@@ -1,0 +1,14 @@
+# Core (always required)
+scikit-learn>=1.3
+numpy>=1.24
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.0
+langdetect>=1.0.9
+pypdf>=4.0
+
+# Recommended for production-quality results (optional -- the pipeline
+# falls back automatically if these aren't installed/configured):
+faiss-cpu>=1.7               # real vector index; falls back to NumPy brute-force search
+sentence-transformers>=2.6   # real semantic embeddings; falls back to TF-IDF
+anthropic>=0.34               # real LLM ranking/explanation + translation; falls back to rule-based
